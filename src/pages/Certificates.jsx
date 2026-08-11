@@ -4,10 +4,10 @@ import droob2 from "../assets/droob2.jpg";
 import droob3 from "../assets/droob3.jpg";
 import droob4 from "../assets/droob4.jpg";
 import bigdata from "../assets/bigdata.jpg";
-import front from "../assets/front.png";
-import back from "../assets/back.png";
-import experiance from "../assets/experiance1.png";
-import recomendation from "../assets/recomnd1.png";
+import front from "../assets/front.PNG";
+import back from "../assets/back.PNG";
+import experiance from "../assets/experiance1.PNG";
+import recomendation from "../assets/recomnd1.PNG";
 
 function Certificates() {
     return (
@@ -21,33 +21,33 @@ function Certificates() {
             <div className="flex justify-evenly items-center gap-4 flex-wrap">
 
                 <div className="flex-col justify-center items-center gap-2
-                 w-[250px] h-[300px] rounded-xl bg-[rgba(66,132,117,0.2)]  p-3 "> 
-                    
+                 w-[250px] h-[300px] rounded-xl bg-[rgba(66,132,117,0.2)]  p-3 ">
+
                     <h3 className="text-[#FFF4E1] text-lg font-semibold mt-2 mb-6">Team Work Skills </h3>
                     <a href={droob1} target="_blank" rel="noopener noreferrer">
                         <img src={droob1} alt="Team worrk"
                             className="rounded-lg cursor-pointer shadow-[0_0_7px_7px_rgba(255,180,140,0.45)]" />
                     </a>
-                    
+
                 </div>
 
                 <div className="flex-col justify-center items-center gap-2
                      w-[250px] h-[300px] rounded-xl bg-[rgba(66,132,117,0.2)]  p-3">
-                    
+
                     <h3 className="text-[#FFF4E1] text-lg font-semibold mt-2 mb-6">Smart Work Ethics</h3>
                     <a href={droob2} target="_blank" rel="noopener noreferrer">
                         <img src={droob2} alt="smart work"
-                        className="rounded-lg cursor-pointer shadow-[0_0_7px_7px_rgba(255,180,140,0.45)]"/>
+                            className="rounded-lg cursor-pointer shadow-[0_0_7px_7px_rgba(255,180,140,0.45)]" />
                     </a>
                 </div>
 
                 <div className="flex-col justify-center items-center gap-2
                       w-[250px] h-[300px] rounded-xl bg-[rgba(66,132,117,0.2)]  p-3">
-                    
+
                     <h3 className="text-[#FFF4E1] text-lg font-semibold mt-2 mb-6">Types Of Insurance</h3>
                     <a href={droob3} target="_blank" rel="noopener noreferrer">
                         <img src={droob3} alt="Insurance"
-                         className="rounded-lg cursor-pointer shadow-[0_0_7px_7px_rgba(255,180,140,0.45)]"/>
+                            className="rounded-lg cursor-pointer shadow-[0_0_7px_7px_rgba(255,180,140,0.45)]" />
                     </a>
                 </div>
 
