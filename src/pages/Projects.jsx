@@ -1,9 +1,14 @@
 import React from "react";
-import accessoryST from "../assets/vidoes/accessoryST.mp4";
-import egypttravel from "../assets/vidoes/egypttravel.mp4";
-import skinglow from "../assets/vidoes/skinglow.mp4"
-import mybags from "../assets/vidoes/mybags.mp4"
-import degitalpro from "../assets/vidoes/degitalpro.mp4"
+// import accessoryST from "../assets/vidoes/accessoryST.mp4";
+// import egypttravel from "../assets/vidoes/egypttravel.mp4";
+// import skinglow from "../assets/vidoes/skinglow.mp4"
+// import mybags from "../assets/vidoes/mybags.mp4"
+// import degitalpro from "../assets/vidoes/degitalpro.mp4"
+import accessory from "../assets/accessory.PNG"
+import travel from "../assets/travel.PNG"
+import skin from "../assets/skin.PNG"
+import degital from "../assets/degital.PNG"
+import bages from "../assets/bags.PNG"
 import { FaGithub } from "react-icons/fa";
 import { Code2 } from "lucide-react";
 import { NavLink } from "react-router-dom";
@@ -45,11 +50,13 @@ function Projects() {
                     </div>
                 </div> 
                 
-                {/* Project Vedio */}
+                {/* Project img */}
                 <div className="flex-1 p-6">
-                    <video src={accessoryST} className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" controls>
+                    {/* <video src={accessoryST} className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" controls>
 
-                    </video>
+                    </video> */}
+                    <img src={accessory} alt="accessory img"
+                        className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]"/>
                 </div>
             </div> 
 
@@ -84,11 +91,13 @@ function Projects() {
                     </div>
                 </div>
 
-                {/* Project Vedio */}
+                {/* Project img */}
                 <div className="flex-1 p-6">
-                    <video src={egypttravel} className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" controls>
+                    {/* <video src={egypttravel} className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" controls>
 
-                    </video>
+                    </video> */}
+                    <img src={travel} alt="travel img"
+                        className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]"/>
                 </div>
             </div>
 
@@ -122,11 +131,13 @@ function Projects() {
                     </div>
                 </div>
 
-                {/* Project Vedio */}
+                {/* Project img */}
                 <div className="flex-1 p-6">
-                    <video src={skinglow} className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" controls>
+                    {/* <video src={skinglow} className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" controls>
 
-                    </video>
+                    </video> */}
+                    <img src={skin} alt="skin img"
+                        className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" />
                 </div>
             </div>
 
@@ -160,11 +171,13 @@ function Projects() {
                     </div>
                 </div>
 
-                {/* Project Vedio */}
+                {/* Project img */}
                 <div className="flex-1 p-6">
-                    <video src={degitalpro} className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" controls>
+                    {/* <video src={degitalpro} className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" controls>
 
-                    </video>
+                    </video> */}
+                    <img src={degital} alt="degital img"
+                        className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" />
                 </div>
             </div>
 
@@ -199,11 +212,13 @@ function Projects() {
                     </div>
                 </div>
 
-                {/* Project Vedio */}
+                {/* Project img */}
                 <div className="flex-1 p-6">
-                    <video src={mybags} className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" controls>
+                    {/* <video src={mybags} className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" controls>
 
-                    </video>
+                    </video> */}
+                    <img src={bages} alt="bags img"
+                        className=" rounded-xl shadow-[0_0_10px_10px_rgba(137,215,183,0.25)]" />
                 </div>
             </div>
 
